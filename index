@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blogging Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blogging Application</h1>
+        <div class="new-post">
+            <h2>New Post</h2>
+            <input type="text" id="postTitle" placeholder="Title" required>
+            <textarea id="postContent" placeholder="Content" required></textarea>
+            <button onclick="addPost()">Add Post</button>
+        </div>
+        <div class="posts" id="posts">
+            <!-- Blog posts will be appended here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
